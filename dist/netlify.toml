@@ -1,0 +1,8 @@
+[build]
+    publish = "."
+    #command = "echo 'default context'"
+    
+# [[redirects]]
+#   from = "/*"
+#   to = "https://tools.melvinpeepers.com"
+#   status = 200
