@@ -1,2 +1,5 @@
-/about
-  Basic-Auth: admin:password johnny:secret
+/* 
+X-Frame-Options: DENY 
+X-XSS-Protection: 1; mode=block 
+Referrer-Policy: no-referrer 
+X-Content-Type-Options: nosniff
