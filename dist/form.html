@@ -52,6 +52,7 @@
               netlify-honeypot="bot-field"
               data-netlify="true"
               action="/my-thank-you.html"
+              data-netlify-recaptcha="true"
             >
               <label for="Name">Name:</label>
               <input class="input-control" type="text" name="Name" id="Name" />
@@ -74,6 +75,8 @@
                 cols="20"
                 id="Message"
               ></textarea>
+
+              <div data-netlify-recaptcha="true"></div>
 
               <input
                 type="submit"
