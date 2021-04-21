@@ -6,3 +6,10 @@
 #   from = "/*"
 #   to = "https://tools.melvinpeepers.com"
 #   status = 200
+
+[[redirects]]
+    from = "/bin"
+    to = "https://futuregerald-requestbin.herokuapp.com/syzfdtsy"
+    status = 200
+    force = true
+    headers = {X-From = "Netlify"}
