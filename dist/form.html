@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap"
+      rel="stylesheet">
+    <title>Simple Site for Netlify Testing | About</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="container flex-container">
+          <h1 class="logo"><a href="index.html">Simple Site</a></h1>
+          <ul>
+            <li><a href="index.html#projects">Section 1</a></li>
+            <li><a href="index.html#contact">Section 2</a></li>
+            <li><a href="form.html">Section 3</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="bio-section">
+      <div class="container">
+        <h2>
+            Form
+        </h2>
+      </div>
+    </section>
+
+    <section class="skills-section">
+      <div class="container">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus luctus posuere est, in ornare libero tempor non. Donec vulputate elementum iaculis. Aliquam et aliquet ligula, sit amet pulvinar lacus. Donec tempor auctor turpis nec commodo. Duis eleifend sollicitudin fermentum. Nullam suscipit mollis vestibulum. Donec accumsan consectetur urna a mattis. Donec quam velit, maximus nec imperdiet nec, semper at felis. In nec lorem vitae velit viverra volutpat at id mauris. Aliquam sed lectus eu eros pellentesque porta. Donec justo urna, maximus eu congue et, condimentum eu mi. Mauris sed consectetur nisl, ut auctor est. Nam placerat rutrum suscipit.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus luctus posuere est, in ornare libero tempor non. Donec vulputate elementum iaculis. Aliquam et aliquet ligula, sit amet pulvinar lacus. Donec tempor auctor turpis nec commodo. Duis eleifend sollicitudin fermentum. Nullam suscipit mollis vestibulum. Donec accumsan consectetur urna a mattis. Donec quam velit, maximus nec imperdiet nec, semper at felis. In nec lorem vitae velit viverra volutpat at id mauris. Aliquam sed lectus eu eros pellentesque porta. Donec justo urna, maximus eu congue et, condimentum eu mi. Mauris sed consectetur nisl, ut auctor est. Nam placerat rutrum suscipit.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus luctus posuere est, in ornare libero tempor non. Donec vulputate elementum iaculis. Aliquam et aliquet ligula, sit amet pulvinar lacus. Donec tempor auctor turpis nec commodo. Duis eleifend sollicitudin fermentum. Nullam suscipit mollis vestibulum. Donec accumsan consectetur urna a mattis. Donec quam velit, maximus nec imperdiet nec, semper at felis. In nec lorem vitae velit viverra volutpat at id mauris. Aliquam sed lectus eu eros pellentesque porta. Donec justo urna, maximus eu congue et, condimentum eu mi. Mauris sed consectetur nisl, ut auctor est. Nam placerat rutrum suscipit.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h4>Contact</h4>
+        <div class="flex-contact">
+          <div id="contact-area">
+            <form
+              method="post"
+              name="contact"
+              netlify-honeypot="bot-field"
+              data-netlify="true"
+              action="/my-thank-you.html"
+              data-netlify-recaptcha="true"
+              netlify-honeypot="bot-field"
+            > 
+              <div class="hidden">
+                <p class="hidden">
+                  <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                </p>
+              </div>
+
+              <label for="Name">Name:</label>
+              <input class="input-control" type="text" name="Name" id="Name" />
+
+              <label for="City">City:</label>
+              <input class="input-control" type="text" name="City" id="City" />
+
+              <label for="Email">Email:</label>
+              <input
+                class="input-control"
+                type="text"
+                name="Email"
+                id="Email"
+              />
+
+              <label for="Message">Message:</label><br />
+              <textarea
+                name="Message"
+                rows="20"
+                cols="20"
+                id="Message"
+              ></textarea>
+
+              <div data-netlify-recaptcha="true"></div>
+
+              <input
+                type="submit"
+                name="submit"
+                value="Submit"
+                class="submit-button"
+              />
+            </form>
+
+            <div style="clear: both"></div>
+          </div>
+
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <ul class="flex-footer">
+          <li class="nav-item footer-nav"><a href="#projects">Section 1</a></li>
+          <li class="nav-item footer-nav"><a href="#contact">Section 2</a></li>
+          <!--<li class="nav-item footer-nav"><a href="blog.html">Blog</a></li>-->
+        </ul>
+        <div class="footer-copyright">
+          <p>&copy; 2021 Melvin Peepers</p>
+        </div>
+        <!-- end of footer-copyright -->
+      </div>
+      <!-- end of footer-container -->
+    </footer>
+  </body>
+</html>
