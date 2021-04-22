@@ -516,3 +516,12 @@ Reset
       font-size: 1.6rem;
     }
   }
+
+  /*
+    Hidden
+  */
+
+  .hidden {
+    visibility: hidden;
+  }
+  
