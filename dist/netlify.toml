@@ -1,6 +1,6 @@
 [build]
     publish = "."
-    command = 'echo PROD_API_LOCATION && sed -i "s|HEADER_PLACEHOLDER|$PROD_API_LOCATION|g" netlify.toml'
+    command = 'echo PROD_API_LOCATION && sed -i "s|HEADER_PLACEHOLDER|${PROD_API_LOCATION}|g" netlify.toml'
 
 #[[redirects]]
  #   from = "/bin"
