@@ -12,4 +12,4 @@
 [[headers]]
     for = "/*"
     [headers.values]
-        PROD_API_LOCATION = "donut"
+        PROD_API_LOCATION = "HEADER_PLACEHOLDER"
