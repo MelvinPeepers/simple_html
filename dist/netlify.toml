@@ -2,12 +2,12 @@
     #publish = "."
     command = sed -i "s|HEADER_PLACEHOLDER|${PROD_API_LOCATION}|g" netlify.toml
 
-[[redirects]]
-    from = "/bin"
-    to = "https://futuregerald-requestbin.herokuapp.com/syzfdtsy"
-    status = 200
-    force = true
-    headers = {X-From = "Netlify"}
+#[[redirects]]
+ #   from = "/bin"
+  #  to = "https://futuregerald-requestbin.herokuapp.com/syzfdtsy"
+   # status = 200
+    #force = true
+    #headers = {X-From = "Netlify"}
     
 [[headers]]
     for = "/*"
