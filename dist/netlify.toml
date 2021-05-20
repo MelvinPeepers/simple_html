@@ -13,4 +13,4 @@
 [[headers]]
     for = "/*"
     [headers.values]
-        HEADER_PLACEHOLDER = "donut"
+        PROD_API_LOCATION = "donut"
