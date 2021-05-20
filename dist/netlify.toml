@@ -4,10 +4,10 @@
 
 #[[redirects]]
  #   from = "/bin"
-  #  to = "https://futuregerald-requestbin.herokuapp.com/syzfdtsy"
-   # status = 200
-    #force = true
-    #headers = {X-From = "Netlify"}
+ #   to = "https://futuregerald-requestbin.herokuapp.com/syzfdtsy"
+ #   status = 200
+ #   force = true
+ #   headers = {X-From = "Netlify"}
     
 [[headers]]
     for = "/*"
